@@ -156,6 +156,7 @@ function App() {
     <>
       <style>
         {`.public-DraftEditorPlaceholder-root{position: absolute;color: silver;pointer-events: none;z-index: -10000;}${editorStyle}`}
+        {`div[role="textbox"] { height: 100vh; }`}
       </style>
       <Editor
         ref={_draftEditorRef}
